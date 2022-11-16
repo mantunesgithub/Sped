@@ -2,6 +2,9 @@ package br.com.mantunes.sped.asynctask
 
 import android.os.AsyncTask
 
+/**
+* Aqui vai uma dica, você usou para aprendizado, tente usar apenas corroutines. Hoje é fortemente ignorado o uso do AsyncTask.
+**/
 class BaseAsyncTask<T>(
     private val quandoExecuta: () -> T,
     private val quandoFinaliza: (resultado: T) -> Unit
